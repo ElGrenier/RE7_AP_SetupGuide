@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html data-bs-theme="dark">
     <head>
-        <title>RE2 Randomizer for Archipelago</title>
+        <title>RE7 Randomizer for Archipelago</title>
         <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
         
         <link href="vendor/css/bootstrap-5.3.0.min.css" rel="stylesheet">
@@ -18,7 +18,7 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <span class="red">R</span>esident <span class="red">E</span>vil 2: <span class="yellow">AP Randomizer</span>
+                        <span class="red">R</span>esident <span class="red">E</span>vil 7: <span class="yellow">AP Randomizer</span>
                         <span class="subtitle">Setup Guide</span>
                     </a>
                 </div>
@@ -47,7 +47,7 @@
 
             <div id="container">
                 <div id="clientmods" class="page active">
-                    <div class="panel panel-1">
+                    <!-- <div class="panel panel-1">
                         <div class="step-number">1</div>
                         <div class="images">
                             <img src="images/clientmods/re2r-switch-to-beta.png" />
@@ -56,41 +56,41 @@
                         <ul>
                             <li>Right-click RE2R on Steam, click "Properties",<br /> and do the steps in the picture to the right.</li>
                         </ul>
-                    </div>
+                    </div> -->
                     
                     <div class="panel panel-2">
-                        <div class="step-number">2</div>
+                        <div class="step-number">1</div>
                         <div class="images">
                             <img src="images/clientmods/reframework-non-rtx.jpg" />    
                         </div>
                         <h4>Install a specific REFramework version.</h4>
                         <ul>
-                            <li>Download the "RE2_TDB66.zip" file in the <a href="https://github.com/praydog/REFramework/releases" target="_blank">most recent release here</a>.</li>
-                            <li>Extract the contents of that zip into your RE2R game install's folder.</li>
+                            <li>Download the "RE7.zip" file in the <a href="https://github.com/praydog/REFramework/releases" target="_blank">most recent release here</a>.</li>
+                            <li>Extract the contents of that zip into your RE7 game install's folder.</li>
                         </ul>
                     </div>
                     
                     <div class="panel panel-3">
-                        <div class="step-number">3</div>
+                        <div class="step-number">2</div>
                         <div class="images">
                             <img src="images/clientmods/ap-client.jpg" />    
                         </div>
                         <h4>Install the AP client mods.</h4>
                         <ul>
-                            <li>Download the "Source code (zip)" file in the <a href="https://github.com/FuzzyGamesOn/RE2R_AP_Client/releases" target="_blank">most recent release here</a>.</li>
-                            <li>Extract the contents of that zip into your game folder. There should now be a "RE2R_AP_Client-x.x.x" folder.</li>
+                            <li>Download the "Source code (zip)" file in the <a href="https://github.com/ElGrenier/RE7_AP_Client/releases" target="_blank">most recent release here</a>.</li>
+                            <li>Extract the contents of that zip into your game folder. There should now be a "RE7_AP_Client-x.x.x" folder.</li>
                             <li>Move the contents of that new folder into your game folder. (It should ask you to overwrite the "reframework" folder, choose Yes.)</li>
                         </ul>
                     </div>
                     
                     <div class="panel panel-4">
-                        <div class="step-number">4</div>
+                        <div class="step-number">3</div>
                         <div class="images">
                             <img src="images/clientmods/game-verify.jpg" />    
                         </div>
                         <h4>Verify that mods are installed.</h4>
                         <ul>
-                            <li>Open your game normally and click through until you see the RE2R title screen.</li>
+                            <li>Open your game normally and click through until you see the RE7 title screen.</li>
                             <li>If you see both a "REFramework" and a couple of "Archipelago" windows in-game, the install worked!</li>
                         </ul>
                     </div>
@@ -108,20 +108,20 @@
                                 <label for="player_name">Player Name:</label>
                                 <input name="player_name" placeholder="Your AP player name" />
                             </div>
-                            <div>
+                            <!-- <div>
                                 <label for="character">Character:</label>
                                 <select name="character">
                                     <option value="leon">Leon</option>
                                     <option value="claire">Claire</option>
                                 </select>
-                            </div>
-                            <div>
+                            </div> -->
+                            <!-- <div>
                                 <label for="scenario">Scenario:</label>
                                 <select name="scenario">
                                     <option value="a">Normal (A)</option>
                                     <option value="b">2nd (B)</option>
                                 </select>
-                            </div>
+                            </div> -->
                             <div>
                                 <label for="difficulty">Difficulty:</label>
                                 <select name="difficulty">
@@ -152,7 +152,7 @@
                             <div class="form-check">
                                 <input type="checkbox" name="bonus_start" /> <label for="bonus_start">Bonus Start</label>
                             </div>
-                            <div class="form-check">
+                            <!-- <div class="form-check">
                                 <input type="checkbox" name="extra_clock_tower_items" /> <label for="extra_clock_tower_items">Extra Clock Tower Items</label>
                             </div>
                             <div class="form-check">
@@ -160,7 +160,7 @@
                             </div>
                             <div class="form-check">
                                 <input type="checkbox" name="allow_progression_in_labs" /> <label for="allow_progression_in_labs">Allow Progression in Labs</label>
-                            </div>
+                            </div> -->
                         </div>
 
                         <div class="form-group">
@@ -207,7 +207,7 @@
                             </div>
                         </div>
                         
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                             <h4>Trap Options</h4>
 
                             <div class="form-check">
@@ -228,9 +228,9 @@
                                 <div class="form-check">
                                     <input type="checkbox" name="damage_traps_can_kill" /> <label for="damage_traps_can_kill">Damage Traps Can Kill</label>
                                 </div>
-                            </div>
+                            </div> -->
                             
-                            <div class="form-check">
+                            <!-- <div class="form-check">
                                 <input type="checkbox" name="add_poison_traps" /> <label for="add_poison_traps">Add Poison Traps</label>
                             </div>
                             <div class="form-subgroup">
@@ -246,7 +246,7 @@
                                     </select>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="action-group">
                             <button class="btn btn-primary" onclick="exportYAML()">Generate YAML</button><br />
                             <button class="btn btn-success next-step" data-step="#generation">Next Step: Generate</button>
@@ -273,8 +273,8 @@
                         </div>
                         <h4>Install the most recent APWorld.</h4>
                         <ul>
-                            <li>Download the RE2R .apworld file from the<br /><a href="https://github.com/FuzzyGamesOn/RE2R_AP_World/releases" target="_blank">most recent release here</a>.</li>
-                            <li>Put that RE2R .apworld file in the<br />"custom_worlds" folder of your Archipelago<br />(AP) install.</li>
+                            <li>Download the RE7 .apworld file from the<br /><a href="https://github.com/Elgrenier/RE7_AP_World/releases" target="_blank">most recent release here</a>.</li>
+                            <li>Put that RE7 .apworld file in the<br />"custom_worlds" folder of your Archipelago<br />(AP) install.</li>
                         </ul>
                     </div>
                     <div class="panel panel-3">
@@ -358,8 +358,8 @@
                         </div>
                         <h4>Start playing!</h4>
                         <ul>
-                            <li>Once you connect, the "Archipelago Game Mod" window in your game will display the Character, Scenario, and Difficulty that was generated with.</li>
-                            <li>Start the same character, scenario, and difficulty as you normally would.</li>
+                            <li>Once you connect, the "Archipelago Game Mod" window in your game will display the Difficulty that was generated with.</li>
+                            <li>Start the same difficulty as you normally would.</li>
                             <li>Enjoy!</li>
                         </ul>
                     </div>

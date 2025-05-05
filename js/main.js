@@ -1,15 +1,15 @@
 $(function() {
-    const updateScenarioFromDatapackageDropdown = function() {
-        let character = 'leon';
-        let scenario = 'a';
-        let dropdown_value = $("select[name='datapackage_scenario']").val();
+    // const updateScenarioFromDatapackageDropdown = function() {
+    //     let character = 'leon';
+    //     let scenario = 'a';
+    //     let dropdown_value = $("select[name='datapackage_scenario']").val();
 
-        if (dropdown_value) {
-            [character, scenario] = dropdown_value.split('_');
-        }
+    //     if (dropdown_value) {
+    //         [character, scenario] = dropdown_value.split('_');
+    //     }
 
-        loadDatapackage(character, scenario);
-    };
+    //     loadDatapackage(character, scenario);
+    // };
 
     if (window.location.hash != '') {
         const nav_link = $(`a.nav-link[href='${window.location.hash}']`);
@@ -18,9 +18,9 @@ $(function() {
             navLinkActive(nav_link);
             pageActiveFromNavLink(nav_link);
 
-            if (window.location.hash == '#datapackage') {
-                updateScenarioFromDatapackageDropdown();
-            }
+            // if (window.location.hash == '#datapackage') {
+            //     updateScenarioFromDatapackageDropdown();
+            // }
         }
     }
 
@@ -37,8 +37,8 @@ $(function() {
         pageActiveFromNavLink(nav_link);
     });
 
-    $('#link_datapackage').click(updateScenarioFromDatapackageDropdown);
-    $("select[name='datapackage_scenario']").change(updateScenarioFromDatapackageDropdown);
+    // $('#link_datapackage').click(updateScenarioFromDatapackageDropdown);
+    // $("select[name='datapackage_scenario']").change(updateScenarioFromDatapackageDropdown);
 
     $('img').on('click', function(e) {
         $('#imgViewer').empty().append( $(e.currentTarget).clone().removeClass('img-responsive').removeClass('img-thumbnail') );
@@ -60,10 +60,10 @@ function pageActiveFromNavLink(obj) {
     history.pushState({}, "", targetPage);
 }
 
-function loadDatapackage(character, scenario) {
-    const item_data = $.get(`data/${character}/items.json`).done(function (data) { return data; });
-    const location_data = $.get(`data/${character}/${scenario}/locations.json`).done(function (data) { return data; });
-    const location_hardcore_data = $.get(`data/${character}/${scenario}/locations_hardcore.json`).done(function (data) { return data; });
+function loadDatapackage() {
+    const item_data = $.get(`data/items.json`).done(function (data) { return data; });
+    const location_data = $.get(`data/locations.json`).done(function (data) { return data; });
+    const location_hardcore_data = $.get(`data/locations_hardcore.json`).done(function (data) { return data; });
 
     Promise.all([item_data, location_data, location_hardcore_data]).then(
         function (combined_data) {
@@ -115,23 +115,24 @@ function exportYAML() {
     const player_name = (form_data['player_name'] != '' ? form_data['player_name'] : 'Player');
 
     let fileContents = `name: ${player_name}\n` +
-        "game: Resident Evil 2 Remake\n" +
+        "game: Resident Evil 7\n" +
         "requires:\n" + 
-        `${tab}version: 0.4.6\n\n` +
-        "Resident Evil 2 Remake:\n" +
+        `${tab}version: 0.0.2\n\n` +
+        "Resident Evil 7:\n" +
         `${tab}progression_balancing: 50\n` +
         `${tab}accessibility: items\n`;
 
-    fileContents += `${tab}character: ${form_data['character']}\n` +
-        `${tab}scenario: ${form_data['scenario']}\n` +
-        `${tab}difficulty: ${form_data['difficulty']}\n` +
+    fileContents += 
+        // `${tab}character: ${form_data['character']}\n` +
+        // `${tab}scenario: ${form_data['scenario']}\n` +
+        // `${tab}difficulty: ${form_data['difficulty']}\n` +
         `${tab}death_link: ${form_data['death_link'] == 'on' ? true : false}\n`;
 
     fileContents += `${tab}starting_hip_pouches: ${form_data['starting_hip_pouches']}\n` +
-        `${tab}bonus_start: ${form_data['bonus_start'] == 'on' ? true : false}\n` +
-        `${tab}extra_clock_tower_items: ${form_data['extra_clock_tower_items'] == 'on' ? true : false}\n` +
-        `${tab}extra_medallions: ${form_data['extra_medallions'] == 'on' ? true : false}\n` +
-        `${tab}allow_progression_in_labs: ${form_data['allow_progression_in_labs'] == 'on' ? true : false}\n`;
+        `${tab}bonus_start: ${form_data['bonus_start'] == 'on' ? true : false}\n`;
+        // `${tab}extra_clock_tower_items: ${form_data['extra_clock_tower_items'] == 'on' ? true : false}\n` +
+        // `${tab}extra_medallions: ${form_data['extra_medallions'] == 'on' ? true : false}\n` +
+        // `${tab}allow_progression_in_labs: ${form_data['allow_progression_in_labs'] == 'on' ? true : false}\n`;
 
     fileContents += `${tab}cross_scenario_weapons: ${form_data['cross_scenario_weapons']}\n` +
         `${tab}oops_all_rockets: ${form_data['oops_all_rockets'] == 'on' ? true : false}\n` +
@@ -143,13 +144,13 @@ function exportYAML() {
         `${tab}no_red_herb: ${form_data['no_red_herb'] == 'on' ? true : false}\n` +
         `${tab}no_gunpowder: ${form_data['no_gunpowder'] == 'on' ? true : false}\n`;
 
-    fileContents += `${tab}add_damage_traps: ${form_data['add_damage_traps'] == 'on' ? true : false}\n` +
-        `${tab}damage_trap_count: ${form_data['damage_trap_count']}\n` +
-        `${tab}damage_traps_can_kill: ${form_data['damage_traps_can_kill'] == 'on' ? true : false}\n`;
+    // fileContents += `${tab}add_damage_traps: ${form_data['add_damage_traps'] == 'on' ? true : false}\n` +
+    //     `${tab}damage_trap_count: ${form_data['damage_trap_count']}\n` +
+    //     `${tab}damage_traps_can_kill: ${form_data['damage_traps_can_kill'] == 'on' ? true : false}\n`;
 
-    fileContents += `${tab}add_poison_traps: ${form_data['add_poison_traps'] == 'on' ? true : false}\n` +
-        `${tab}poison_trap_count: ${form_data['poison_trap_count']}\n`;
+    // fileContents += `${tab}add_poison_traps: ${form_data['add_poison_traps'] == 'on' ? true : false}\n` +
+    //     `${tab}poison_trap_count: ${form_data['poison_trap_count']}\n`;
 
     const file = new Blob([fileContents], { type: 'text/yaml' });
-    saveAs(file, `RE2R_${player_name}.yaml`);
+    saveAs(file, `RE7_${player_name}.yaml`);
 }
