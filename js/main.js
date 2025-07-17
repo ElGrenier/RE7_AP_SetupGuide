@@ -129,8 +129,10 @@ function exportYAML() {
         `${tab}death_link: ${form_data['death_link'] == 'on' ? true : false}\n`;
 
     fileContents += `${tab}starting_hip_pouches: ${form_data['starting_hip_pouches']}\n` +
-        `${tab}bonus_start: ${form_data['bonus_start'] == 'on' ? true : false}\n`;
-        // `${tab}extra_clock_tower_items: ${form_data['extra_clock_tower_items'] == 'on' ? true : false}\n` +
+        `${tab}bonus_start: ${form_data['bonus_start'] == 'on' ? true : false}\n` +
+        `${tab}randomize_coins: ${form_data['randomize_coins']}\n` +
+        `${tab}randomize_coins_cages: ${form_data['randomize_coins_cages']}\n` +
+        `${tab}start_at_chapter_2: ${form_data['start_at_chapter_2'] == 'on' ? true : false}\n`;
         // `${tab}extra_medallions: ${form_data['extra_medallions'] == 'on' ? true : false}\n` +
         // `${tab}allow_progression_in_labs: ${form_data['allow_progression_in_labs'] == 'on' ? true : false}\n`;
 

@@ -1,0 +1,2429 @@
+[
+    {
+        "name": "Purse with License Inside",
+        "region": "Intro House",
+        "original_item": "Mia Driving License",
+        "condition": {},
+        "item_object": "sm7011_Lisence_InteractDetailSearch",
+        "parent_object": "sm7011_Lisence_Props",
+        "folder_path": "Chapter/Chapter1/Outside/c01_Outside11/c01_Outside11_sm"
+    },
+    {
+        "name": "Old Videotape Upstairs",
+        "region": "Intro House",
+        "original_item": "Old Videotape",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm0584_Videotape01C_DetailSearchItem",
+        "folder_path": "Chapter/Chapter1/2F/c01_2F/c01_2F_sm"
+    },
+    {
+        "name": "At the start of the Old Videotape",
+        "original_item": "Lockpick",
+        "region": "Intro House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1796_KeyPick01A_DetailSearchItem",
+        "folder_path": "Chapter/FF000/Outside/c01_Outside11/c01_Outside11_sm",
+	"randomized": 0
+    },
+    {
+        "name": "In the locked drawer",
+        "original_item": "Antique Coin",
+        "region": "Intro House",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "parent_object": "sm2164_Coin01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter1/1F/c01_Kitchen01/c01_Kitchen01_sm",
+	    "randomized": 0
+    },
+    {
+        "name": "Next to mia cage",
+        "original_item": "Bolt Cutters",
+        "region": "Intro House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "ChainCutter",
+        "folder_path": "Chapter/Chapter1/B1/c01_B1f/c01_B1f_sm",
+	    "randomized": 0
+    },
+    {
+        "name": "In the drawer, left of the sink",
+        "original_item": "First Aid Med",
+        "region": "Intro House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter1/1F/c01_Bathroom01/c01_Bathroom01_sm",
+	    "item_position": [-2,0,-2]
+    },
+    {
+        "name": "On the shelf, right of the sink",
+        "original_item": "First Aid Med",
+        "region": "Intro House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter1/1F/c01_Bathroom01/c01_Bathroom01_sm",
+	    "item_position": [-2,0,-4]
+    },
+    {
+        "name": "On The Floor",
+        "original_item": "Axe",
+        "region": "Intro House",
+        "condition": {},
+        "item_object": "InteractWeapon",
+        "parent_object": "wp0040_Axe_Get",
+        "folder_path": "Chapter/Chapter1/1F/c01_Storeroom01/c01_Storeroom01_sm",
+	"randomized": 0
+    },
+    {
+        "name": "In the armory, using the Bolt Cutters",
+        "original_item": "Fuse",
+        "region": "Intro House",
+        "condition": {
+            "items": ["Bolt Cutters"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm0246_Fuse01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter1/1F/c01_Corridor01/c01_Corridor01_sm",
+	"randomized": 0
+    },
+    {
+        "name": "On the ground, in the corridor",
+        "original_item": "Ethan's Hand",
+        "region": "Intro House",
+        "condition": {
+            "items": ["Fuse"]
+        },
+        "item_object": "sm1649_EthanLHand_InteractDetailSearch",
+        "parent_object": "sm1649_EthanLHand_DetailSearchItem",
+        "folder_path": "Chapter/Chapter1/1F/c01_Corridor02/c01_Corridor02_sm"
+    },
+    {
+        "name": "On the table, in the attic",
+        "original_item": "M19 Handgun",
+        "region": "Intro House",
+        "condition": {
+            "items": ["Fuse"]
+        },
+        "item_object": "InteractWeapon",
+        "parent_object": "wp1010_Handgun_GetEvent",
+        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
+	"randomized": 0
+    },
+    {
+        "name": "On the table, left to the gun, in the attic",
+        "original_item": "First Aid Med",
+        "region": "Intro House",
+        "condition": {
+            "items": ["Fuse"]
+        },
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
+	"item_position": [12,7,12],
+	"randomized": 0
+
+    },
+    {
+        "name": "On the table, right of the gun, in the attic",
+        "original_item": "Handgun Ammo",
+        "region": "Intro House",
+        "condition": {
+            "items": ["Fuse"]
+        },
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
+	"item_position": [12,7,11],
+	"randomized": 0
+    },
+    {
+        "name": "On the table, next to the bed",
+        "original_item": "Handgun Ammo",
+        "region": "Intro House",
+        "condition": {
+            "items": ["Fuse"]
+        },
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
+	"item_position": [18,7,17]
+    },
+    {
+        "name": "On the table, in the battle zone against Mia",
+        "original_item": "Handgun Ammo",
+        "region": "Intro House",
+        "condition": {
+            "items": ["Fuse"]
+        },
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
+	"item_position": [7,7,7]
+    },
+    {
+        "name": "In the drawer, next to the right speaker",
+        "original_item": "Handgun Ammo",
+        "region": "Dining Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FLiving/c03_MainHouse1FLiving_sm"
+    },
+    {
+        "name": "On the table at the end of the corridor",
+        "original_item": "Hatch Key",
+        "region": "Dining Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2287_UndeFloorDoorKey01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem",
+	"randomized": 0
+    },
+    {
+        "name": "behind a wooden planks, next to the ox door",
+        "original_item": "Gun Powder",
+        "region": "Dining Area",
+        "condition": {},
+        "item_object": "GameObject",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/West_1F",
+	    "item_position": [8.77,0.0,-2.99]
+    },
+    {
+        "name": "In dad Cinematic - Leg",
+        "original_item": "Ethan's Leg",
+        "region": "Dining Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2241_EthanLeg_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FPantry/c03_MainHouse1FPantry_sm",
+	"randomized": 0
+    },
+    {
+        "name": "In dad Cinematic - Heal",
+        "original_item": "First Aid Med",
+        "region": "Dining Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1853_AntisepticSolutionStrong_Get",
+        "folder_path": "Chapter/Chapter3/Enemy_c03/Enemy_c03_1/c03_Soft_1",
+        "randomized":0
+    },
+    {
+        "name": "In the tunnel",
+        "original_item": "Antique Coin",
+        "region": "Dining Area",
+        "condition": {
+            "items": ["Hatch Key"]
+        },
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Coins",
+	"item_position": [16.87,-1.63,13.43]
+    },
+    {
+        "name": "In the blue drawer, on the left",
+        "original_item": "Chem Fluid",
+        "region": "Laundry Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FWash/c03_MainHouse1FWash_sm"
+    },
+    {
+        "name": "In the blue drawer, on the right",
+        "original_item": "Herb",
+        "region": "Laundry Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FWash/c03_MainHouse1FWash_sm"
+    },
+    {
+        "name": "In the yellow box next to the door",
+        "original_item": "Lockpick",
+        "region": "Laundry Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyPick",
+        "item_position": [27.93,1.16,11.59]
+    },
+    {
+        "name": "Cops cinematic",
+        "original_item": "Knife",
+        "region": "Laundry Room",
+        "condition": {},
+        "item_object": "InteractWeapon",
+        "parent_object": "wp1190_Knife_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem"
+    },
+    {
+        "name": "in the wooden box, at the entrance",
+        "original_item": "Handgun Ammo",
+        "region": "Garage",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FGarageHallway/c03_MainHouse1FGarageHallway_sm",
+	    "item_position": [28.07,0.9,3.61]
+    },
+    {
+        "name": "On the floor, next to the dad",
+        "original_item": "G17 Handgun",
+        "region": "Garage",
+        "condition": {},
+        "item_object": "InteractWeapon",
+        "parent_object": "wp1210_Handgun_Get",
+        "folder_path": "Chapter/Chapter3/Event_c03/Event_c03_1/evProps"
+    },
+    {
+        "name": "In the garage, next to the car",
+        "original_item": "Car Key",
+        "region": "Garage",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2242_EthanCarKey_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyItem",
+	    "randomized": 0
+    },
+    {
+        "name": "At the left, on top, after the ladder",
+        "original_item": "Shotgun Ammo",
+        "region": "Garage",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/West_1F",
+	    "item_position": [29.57,2.74,4.83]
+    },
+    {
+        "name": "Inside the Ox Display",
+        "original_item": "Ox Statuette",
+        "region": "Garage",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1640_EntranceKey01B_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FGarage/c03_MainHouse1FGarage_sm",
+        "randomized":0
+    },
+    {
+        "name": "Right Locker",
+        "original_item": "Chem Fluid",
+        "region": "Garage",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FGarage/c03_MainHouse1FGarage_sm"
+    },
+    {
+        "name": "Left Locker",
+        "original_item": "First Aid Med",
+        "region": "Garage",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FGarage/c03_MainHouse1FGarage_sm"
+    },
+    {
+        "name": "Left Box",
+        "original_item": "Handgun Ammo",
+        "region": "Garage",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/West_1F/Boss/Box",
+	    "item_position": [31.89,-0.81,-7.26]
+    },
+    {
+        "name":"Locked Locker",
+        "original_item": "First Aid Med",
+        "region": "Dining Area",
+        "condition": {
+            "items": ["Lockpick"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FHallway/c03_MainHouse1FHallway_sm"
+    },
+    {
+        "name": "Under Stairs",
+        "original_item": "Chem Fluid",
+        "region": "Main Hall",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_Hall/Normal/Item"
+    },
+    {
+        "name":"Left Big storage",
+        "original_item": "Gun Powder",
+        "region": "Main Hall",
+        "condition": {},
+        "item_object": "sm2183_Gunpowder01A_InteractDetailSearch",
+        "parent_object": "sm2183_Gunpowder01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouseHall/c03_MainHouseHall_sm"
+    },
+    {
+        "name":"Right Storage",
+        "original_item": "Antique Coin",
+        "region": "Main Hall",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouseHall/c03_MainHouseHall_sm",
+	    "item_position": [4.58,0.65,10.3]
+    },
+    {
+        "name":"Left Table",
+        "original_item": "Herb",
+        "region": "Main Hall",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_Hall/Normal/Item"
+    },
+    {
+        "name":"In the Trash",
+        "original_item": "Herb",
+        "region": "Kitchen",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/West_1F"
+    },
+    {
+        "name":"In the broken clock",
+        "original_item": "Clock Pendulum",
+        "region": "Main Hall",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2245_Pendulum01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouseHall/c03_MainHouseHall_sm"
+    },
+    {
+        "name":"In the clock",
+        "original_item": "White Dogs Head",
+        "region": "Living Room",
+        "condition": {
+            "items": ["Clock Pendulum"]
+        },
+        "item_object": "sm2010_TripleCrest01B_InteractDetailSearch",
+        "parent_object": "sm2010_TripleCrest01B_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FLiving/c03_MainHouse1FLiving_sm"
+    },
+    {
+        "name":"Behind the Right Speaker",
+        "original_item": "Herb",
+        "region": "Living Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/West_1F"
+    },
+
+    {
+        "name":"Next to Statue",
+        "original_item": "Antique Coin",
+        "region": "Recreation Room",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Coins",
+        "item_position":[15.21,5.27,12.38]
+    },
+    {
+        "name":"On the Bar",
+        "original_item": "Mia",
+        "region": "Recreation Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1714_Videotape01E_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem"
+    },
+    {
+        "name":"In the Trash (2)",
+        "original_item": "Gun Powder",
+        "region": "Recreation Room",
+        "condition": {},
+        "item_object": "sm2183_Gunpowder01A_InteractDetailSearch",
+        "parent_object": "sm2183_Gunpowder01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FPlay/c03_MainHouse2FPlay_sm"
+    },
+    {
+        "name":"Inside the Big Book",
+        "original_item": "Blue Dogs Head",
+        "region": "Recreation Room",
+        "condition": {},
+        "item_object": "sm2009_TripleCrest01A_InteractDetailSearch",
+        "parent_object": "sm2009_TripleCrest01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem"
+    },
+    {
+        "name":"In the corridor, in the shelve",
+        "original_item": "Herb",
+        "region": "Recreation Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FHallway/c03_MainHouse2FHallway_sm"
+    },
+        {
+        "name":"In the bin",
+        "original_item": "Handgun Ammo",
+        "region": "Recreation Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F"
+    },
+    {
+        "name":"In the corridor, next to the broken stairs",
+        "original_item": "Chem Fluid",
+        "region": "Bathroom",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FHallway2/c03_MainHouse2FHallway2_sm",
+        "item_position": [24.36,4.67,6.88]
+    },
+    {
+        "name":"Outside, in the box (2F)",
+        "original_item": "Handgun Ammo",
+        "region": "Bathroom",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/Box",
+        "item_position":[26.82,4.04,14.92]
+    },
+    {
+        "name":"Outside (2F), behind the mess",
+        "original_item": "Herb",
+        "region": "Main Hall",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F"
+    },
+    {
+        "name":"In the front shelf",
+        "original_item": "Handgun Ammo",
+        "region": "Bathroom",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FBath/c03_MainHouse2FBath_sm"
+    },
+    {
+        "name":"In the Toilet",
+        "original_item": "Antique Coin",
+        "region": "Bathroom",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Coins",
+        "item_position": [31.02,4.26,5.13]
+    },
+    {
+        "name":"In the orange box",
+        "original_item": "Shotgun Ammo",
+        "region": "Bathroom",
+        "condition": {
+            "items":["Lockpick"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyPick"
+    },
+    {
+        "name":"In the Bath",
+        "original_item": "Wooden Statuette",
+        "region": "Bathroom",
+        "condition": {
+	        "items":["Knife"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm9092_ShadowPiece02_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FBath/c03_MainHouse2FBath_sm"
+    },
+    {
+        "name":"At the feet of the Deer",
+        "original_item": "Handgun Ammo",
+        "region": "Drawing Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F"
+    },
+    {
+        "name":"In the White Shelve",
+        "original_item": "Chem Fluid",
+        "region": "Drawing Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoom1F/c03_RightArea1FParlor/c03_RightArea1FParlor_sm",
+	"item_position": [-23.24,0.72,-3.36]
+    },
+    {
+        "name":"On the Table",
+        "original_item": "Psychostimulants",
+        "region": "Drawing Room",
+        "condition": {},
+        "item_object": "sm2179_Psychostimulant01A_InteractDetailSearch",
+        "parent_object": "sm2179_Psychostimulant01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F"
+    },
+    {
+        "name":"In the Box",
+        "original_item": "Handgun Ammo",
+        "region": "Drawing Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F/Box",
+        "item_position":[-20.48,0.04,-0.36]
+    },
+    {
+        "name":"In the Fridge",
+        "original_item": "Chem Fluid",
+        "region": "Drawing Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoom1F/c03_RightArea1FParlor/c03_RightArea1FParlor_sm"
+    },
+    {
+        "name":"In the Plant",
+        "original_item": "Herb",
+        "region": "Drawing Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F"
+    },
+    {
+        "name":"In the Ashtray",
+        "original_item": "Antique Coin",
+        "region": "Drawing Room",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Coins",
+        "item_position":[-11.47,1.0,-1.99]
+    },
+    {
+        "name":"In the bottom Rack",
+        "original_item": "Gun Powder",
+        "region": "Drawing Room",
+        "condition": {},
+        "item_object": "GameObject",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F",
+        "item_position":[-10.33,0.54,-3.59]
+    },
+    {
+        "name":"In the Shelve",
+        "original_item": "First Aid Med",
+        "region": "Monitoring Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoom1F/c03_RightArea1FStudy/c03_RightArea1FStudy_sm",
+	"item_position": [-17.01,1.07,22.5]
+    },
+    {
+        "name":"Under the Table",
+        "original_item": "Strong Chem Fluid",
+        "region": "Incinerator Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+    },
+    {
+        "name":"Under the Corpse Table",
+        "original_item": "Gun Powder",
+        "region": "Incinerator Room",
+        "condition": {},
+        "item_object": "GameObject",
+        "parent_object": "Gunpowder",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+    },
+    {
+        "name":"Inside the Incenerating zone",
+        "original_item": "Dissection Room Key",
+        "region": "Incinerator Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2050_workroomkey01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoomB1F/c03_RightAreaB1FMorgue/c03_RightAreaB1FMorgue_sm"
+    },
+    {
+        "name":"In the box in the shelf",
+        "original_item": "First Aid Med",
+        "region": "Main Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/Box",
+        "item_position":[-19.66,-4.05,9.16]
+    },
+    {
+        "name":"In the Box on the Ground",
+        "original_item": "Handgun Ammo",
+        "region": "Main Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/Box",
+        "item_position":[-19.38,-5.23,10.8]
+    },
+    {
+        "name":"Stuck in the meat",
+        "original_item": "Scorpion Key",
+        "region": "Main Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1732_FatherKey01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/KeyItem"
+    },
+    {
+        "name":"In the Fridge (2)",
+        "original_item": "Lockpick",
+        "region": "Main Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1796_KeyPick01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/KeyPick"
+    },
+    {
+        "name":"On the Iron Shelve",
+        "original_item": "Treasure Photo - Morgue",
+        "region": "Main Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2153_TreasureMap01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Common/KeyItem",
+	"randomized": 0
+    },
+    {
+        "name":"In the secret stash (inside the chimney)",
+        "original_item": "Steroids",
+        "region": "Drawing Room",
+        "condition": {
+            "items": ["Treasure Photo - Morgue"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1927_Stimulant_Get",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoom1F/c03_RightArea1FParlor/c03_RightArea1FParlor_sm"
+    },
+    {
+        "name":"Inside the cage",
+        "original_item": "Herb",
+        "region": "Main Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
+        "item_position":[-14.17,-4.99,14.98]
+    },
+    {
+        "name":"Behind the wooden pallet",
+        "original_item": "Herb",
+        "region": "Main Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
+        "item_position":[-19.81,-5.03,9.15]
+    },
+    {
+        "name":"In the Green Armor",
+        "original_item": "Chem Fluid",
+        "region": "Main Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal"
+    },
+    {
+        "name":"In the stairs next to the Snake Door",
+        "original_item": "Psychostimulants",
+        "region": "Main Room",
+        "condition": {},
+        "item_object": "sm2179_Psychostimulant01A_InteractDetailSearch",
+        "parent_object": "sm2179_Psychostimulant01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+    },
+    {
+        "name":"In the stairs, in front of the Snake door",
+        "original_item": "Shotgun Ammo",
+        "region": "Main Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
+	"item_position": [-6.77,-7.29,22.7]
+    },
+    {
+        "name":"In the left bath next to the entrance",
+        "original_item": "Handgun Ammo",
+        "region": "Bathroom - Processing Area Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
+	    "item_position": [-30.51,-5.24,7.12]
+    },
+    {
+        "name":"In the front bath, next to the exit door",
+        "original_item": "Chem Fluid",
+        "region": "Bathroom - Processing Area Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
+	    "item_position": [-33.32,-5.75,-3.62]
+    },
+    {
+        "name":"In the wall",
+        "original_item": "Herb",
+        "region": "Bathroom - Processing Area Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
+	"item_position": [-24.82,-4.16,-3.42]
+    },
+    {
+        "name":"On the Left table",
+        "original_item": "Shotgun Ammo",
+        "region": "Boiler Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+    },
+    {
+        "name":"In the red Shelf",
+        "original_item": "Strong Chem Fluid",
+        "region": "Boiler Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal"
+    },
+    {
+        "name":"In the right locker",
+        "original_item": "Shotgun Ammo",
+        "region": "Dissection Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoomB1F/c03_RightAreaB1FStoreroom/c03_RightAreaB1FStoreroom_sm"
+    },
+    {
+        "name":"In the open Locker at the end of the hallway (on top)",
+        "original_item": "Shotgun Ammo",
+        "region": "Dissection Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM",
+	"item_position":[-2.08,-6.06,-1.07]
+    },
+    {
+        "name":"In the open Locker at the end of the hallway (on the bottom)",
+        "original_item": "Herb",
+        "region": "Dissection Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM",
+	"item_position":[-2.08,-7.01,-0.77]
+    },
+    {
+        "name":"In the Lower tray",
+        "original_item": "Chem Fluid",
+        "region": "Morgue",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM"
+    },
+    {
+        "name":"Under the Stairs, on the table",
+        "original_item": "Gun Powder",
+        "region": "Morgue",
+        "condition": {},
+        "item_object": "GameObject",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
+        "item_position": [-1,-6,16]
+    },
+    {
+        "name":"In the hole in the wall, next to the pallet",
+        "original_item": "Antique Coin",
+        "region": "Main Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Coins",
+        "item_position":[-22.76,-4.9,7.98]
+    },
+    {
+        "name":"In the bottom shelve, behind the pallet",
+        "original_item": "Herb",
+        "region": "Main Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
+        "item_position":[-19,-4,9]
+    },
+    {
+        "name":"On the hanging hook",
+        "original_item": "Red Dogs Head",
+        "region": "Morgue",
+        "condition": {},
+        "item_object": "sm2011_TripleCrest01C_InteractSendFsm",
+        "parent_object": "sm2011_TripleCrest01C_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoomB1F/c03_RightAreaB1FFreezer/c03_RightAreaB1FFreezer_sm"
+    },
+    {
+        "name":"In the corpse",
+        "original_item": "Chain Saw",
+        "region": "Morgue",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp0060_ChainSaw_Get",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoomB1F/c03_RightAreaB1FFreezer/c03_RightAreaB1FFreezer_sm",
+        "randomized":0
+    },
+    {
+        "name":"In the box, inside the arena",
+        "original_item": "Handgun Ammo",
+        "region": "Morgue",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM",
+        "item_position": [-1,-7,3]
+    },
+    {
+        "name":"In the corner, on top of a painting box",
+        "original_item": "First Aid Med",
+        "region": "Morgue",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM"
+    },
+    {
+        "name":"In the locked drawer, next to save spot",
+        "original_item": "Handgun Ammo",
+        "region": "Monitoring Room",
+        "condition": {
+            "items": ["Lockpick"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoom1F/c03_RightArea1FStudy/c03_RightArea1FStudy_sm"
+    },
+    {
+        "name":"Next to the door",
+        "original_item": "Broken Shotgun",
+        "region": "Grandma Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1039_BrokenShotgun_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem"
+    },
+    {
+        "name":"In the Armoir",
+        "original_item": "Handgun Ammo",
+        "region": "Grandma Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FGrandma/c03_MainHouse2FGrandma_sm",
+	    "item_position": [12.32,5.35,13.12]
+    },
+    {
+        "name":"On top of the shelf, next to the windows",
+        "original_item": "Chem Fluid",
+        "region": "Grandma Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Sasori",
+	    "item_position":[10.89,4.88,13.37]
+    },
+    {
+        "name":"On top of the bed",
+        "original_item": "Shotgun Ammo",
+        "region": "Grandma Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Sasori",
+	    "item_position":[9.9,4.72,7.68]
+    },
+    {
+        "name":"On the ground, right of the table",
+        "original_item": "Burner Fuel",
+        "region": "Grandma Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Sasori",
+	    "item_position":[12.4,4.0,12.62]
+    },
+    {
+        "name":"Under the terrasse, in the box",
+        "original_item": "Repair Kit",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2290_RepairKit01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Box"
+    },
+    {
+        "name":"Next to the stair (on the left), stuck on the windows",
+        "original_item": "Separating Agent",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "sm2038_ChemicalL01A_InteractDetailSearch",
+        "parent_object": "sm2038_ChemicalL01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_Hall/Normal/Item"
+    },
+    {
+        "name":"On the left of the TERASSE",
+        "original_item": "Herb",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item",
+        "item_position":[22,0,14]
+    },
+    {
+        "name":"On the yellow Shelf",
+        "original_item": "Gun Powder",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "GameObject",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item",
+        "item_position": [25,1,15]
+    },
+    {
+        "name":"In the pot, on the right stairs",
+        "original_item": "Lockpick",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1796_KeyPick01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_Hall/Normal/Item"
+    },
+    {
+        "name":"On the hidden pot, on the right of the right stairs",
+        "original_item": "Antique Coin",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_Hall/Normal/Item",
+	"item_position": [-4,-1,15]
+    },
+    {
+        "name":"in the pot on the left of the right stairs",
+        "original_item": "Herb",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item",
+        "item_position": [2,0,18]
+    },
+    {
+        "name":"On the right of the Caravane Door",
+        "original_item": "Chem Fluid",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item"
+    },
+    {
+        "name":"In the caravan, on the table",
+        "original_item": "Antique Coin",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "parent_object": "_sm2164_Coin01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Coins"
+    },
+    {
+        "name":"In front of the Old House, in the box",
+        "original_item": "Shotgun Ammo",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Box",
+	"item_position": [-23,-2,73]
+    },
+    {
+        "name":"In the Big Bowl on the right of the caravan",
+        "original_item": "Gun Powder",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "GameObject",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item",
+        "item_position": [4.11,-0.79,37.04]
+    },
+    {
+        "name":"Under the caravan, behind it",
+        "original_item": "Shotgun Ammo",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item",
+        "item_position": [17.69,-2.11,39.55]
+    },
+    {
+        "name":"In the bed inside the caravane",
+        "original_item": "Broken Handgun",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1019_BrokenHandgun_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal"
+    },
+    {
+        "name":"In the Caravane, in the Cage with 9 Coins Necessary",
+        "original_item": "44 MAG",
+        "region": "Yard",
+        "condition": {
+            "items": ["Antique Coin","Antique Coin","Antique Coin","Antique Coin","Antique Coin","Antique Coin","Antique Coin","Antique Coin","Antique Coin"]
+        },
+        "item_object": "InteractWeapon",
+        "parent_object": "wp1140_Magnum_Get",
+        "folder_path": "Chapter/Chapter3/c03_Garden/c03_TrailerHouse/c03_TrailerHouse_sm"
+    },
+    {
+        "name":"In the Caravane, Steroid in the Cage with 3 Coins Necessary",
+        "original_item": "Steroids",
+        "region": "Yard",
+        "condition": {
+            "items": ["Antique Coin","Antique Coin","Antique Coin"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1927_Stimulant_Get",
+        "folder_path": "Chapter/Chapter3/c03_Garden/c03_TrailerHouse/c03_TrailerHouse_sm"
+    },
+    {
+        "name":"In the Caravane, Stabilizer in the Cage with 5 Coins Necessary",
+        "original_item": "Stabilizer",
+        "region": "Yard",
+        "condition": {
+            "items": ["Antique Coin","Antique Coin","Antique Coin","Antique Coin","Antique Coin","Antique Coin"]
+        },
+        "item_object": "sm1928_Depressant_InteractDetailSearch",
+        "parent_object": "sm1928_Depressant_Get",
+        "folder_path": "Chapter/Chapter3/c03_Garden/c03_TrailerHouse/c03_TrailerHouse_sm"
+    },
+    {
+        "name":"In the Caravane, in the toilet",
+        "original_item": "44 Mag Ammo",
+        "region": "Yard",
+        "condition": {
+            "items": ["Treasure Photo - Green House"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1141_MagnumBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Common/Item"
+    },
+        {
+        "name":"In the chest after the shadow puzzle",
+        "original_item": "Stabilizer",
+        "region": "Yard",
+        "condition": {
+            "items":["Toy Axe"]
+        },
+        "item_object": "sm1928_Depressant_InteractDetailSearch",
+        "parent_object": "sm1928_Depressant_Get",
+        "folder_path": "Chapter/Chapter3/c03_Garden/c03_GardenArea1/c03_GardenArea1_sm"
+    },
+    {
+        "name":"Next to Lucas Door",
+        "original_item": "Supplement",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "sm2025_Flower01A_InteractDetailSearch",
+        "parent_object": "sm2025_Flower01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item"
+    },
+    {
+        "name":"In the drawer, at the left of the entrance, under a cat cage",
+        "original_item": "Solid Fuel",
+        "region": "Living Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2026_Alcohol01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FRoom01/c03_OldHouse1FRoom01_sm"
+    },
+    {
+        "name":"In the shelf, next to the hive nest",
+        "original_item": "Solid Fuel",
+        "region": "Living Room - Old House",
+        "condition": {
+		"items": ["Burner Nozzle","Burner Grip"]
+	},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item/Chemical",
+	    "item_position": [-34.11,-2.37,76.65]
+    },
+    {
+        "name":"In the Wooden Pallet right of the windows",
+        "original_item": "Burner Fuel",
+        "region": "Living Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item",
+        "item_position": [-29.11,-2.7,75.14]
+    },
+        {
+        "name":"on the corner of the shelve (in the stairs behind the chimney)",
+        "original_item": "Antique Coin",
+        "region": "Living Room - Old House",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Coins",
+        "item_position": [-47.33,-4.15,78.06]
+    },
+    {
+        "name":"Behind the chimney, on the table",
+        "original_item": "Stone Statuette",
+        "region": "Living Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm9069_ShadowPiece01_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Common/KeyItem"
+    },
+    {
+        "name":"In the locked drawer, next to the sink",
+        "original_item": "First Aid Med",
+        "region": "Dining Room - Old House",
+        "condition": {
+            "items": ["Lockpick"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FKitchen01/c03_OldHouse1FKitchen01_sm"
+    },
+    {
+        "name":"In the shelf (4)",
+        "original_item": "Chem Fluid",
+        "region": "Dining Room - Old House",
+        "condition": {
+            "items": ["Burner Nozzle","Burner Grip"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FKitchen01/c03_OldHouse1FKitchen01_sm"
+    },
+    {
+        "name":"In the shelf (3)",
+        "original_item": "Strong Chem Fluid",
+        "region": "Dining Room - Old House",
+        "condition": {
+            "items": ["Burner Nozzle","Burner Grip"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FKitchen01/c03_OldHouse1FKitchen01_sm"
+    },
+    {
+        "name":"In the Wooden Pallet",
+        "original_item": "Shotgun Ammo",
+        "region": "Dining Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"In the wardrobe",
+        "original_item": "Solid Fuel",
+        "region": "Dining Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2026_Alcohol01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FKitchen01/c03_OldHouse1FKitchen01_sm"
+    },
+    {
+        "name":"Outside, on the right end",
+        "original_item": "Psychostimulants",
+        "region": "Dining Room - Old House",
+        "condition": {},
+        "item_object": "sm2179_Psychostimulant01A_InteractDetailSearch",
+        "parent_object": "sm2179_Psychostimulant01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"Outside, on the right end, In the box",
+        "original_item": "Lockpick",
+        "region": "Dining Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1796_KeyPick01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/KeyPick"
+    },
+    {
+        "name":"Outside, on the left of the door",
+        "original_item": "Gun Powder",
+        "region": "Dining Room - Old House",
+        "condition": {},
+        "item_object": "sm2183_Gunpowder01A_InteractDetailSearch",
+        "parent_object": "_sm2183_Gunpowder01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"On the Table (3)",
+        "original_item": "Burner Nozzle",
+        "region": "Water Station",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Common/KeyItem",
+        "item_position":[-61.28,-2.02,91.24]
+    },
+    {
+        "name":"on the left Shelf",
+        "original_item": "Herb",
+        "region": "Water Station",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item",
+        "item_position":[-60.95,-1.87,92.74]
+    },
+    {
+        "name":"On the far left, behind the door, next to the big hole",
+        "original_item": "44 Mag Ammo",
+        "region": "Entrance - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1141_MagnumBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"In the yellow box",
+        "original_item": "Herb",
+        "region": "Guest Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item",
+	"item_position": [-25.58,-2.22,85.04]
+    },
+    {
+        "name":"In the iron Shelf",
+        "original_item": "Burner Fuel",
+        "region": "Guest Room - Old House",
+        "condition": {
+            "items": ["Burner Nozzle","Burner Grip"]
+        },
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FRoom02/c03_OldHouse1FRoom02_sm",
+        "item_position": [-27.22,-1.93,87.19]
+    },
+    {
+        "name":"In the iron Shelf (2)",
+        "original_item": "Burner Fuel",
+        "region": "Guest Room - Old House",
+        "condition": {
+            "items": ["Burner Nozzle","Burner Grip"]
+        },
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FRoom02/c03_OldHouse1FRoom02_sm",
+        "item_position": [-27.41,-1.99,86.5]
+    },
+    {
+        "name":"In the Hallway, under the furniture",
+        "original_item": "Burner Fuel",
+        "region": "Guest Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item",
+        "item_position": [-23.37,-2.89,88.31]
+    },
+    {
+        "name":"Outside, in the trash on the right",
+        "original_item": "Chem Fluid",
+        "region": "Gallery - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouseOutside/c03_OldHouseOutside/c03_OldHouseOutside_sm"
+    },
+    {
+        "name":"Outside, in the cardboard box",
+        "original_item": "Chem Fluid",
+        "region": "Gallery - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item/Chemical",
+        "item_position": [-23,-2,96]
+    },
+    {
+        "name":"Outside, in the trash on the left",
+        "original_item": "Burner Grip",
+        "region": "Gallery - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1690_GasBurnerPartsA_Gimmick",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Common/KeyItem"
+    },
+    {
+        "name":"Past the big hole, in the trash",
+        "original_item": "Herb",
+        "region": "Entrance - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"Past the big hole, in the tire",
+        "original_item": "Solid Fuel",
+        "region": "Entrance - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm2026_Alcohol01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"Next to the Crow Door, in the drawer",
+        "original_item": "Chem Fluid",
+        "region": "Entrance - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FHole01/c03_OldHouse1FHole01_sm"
+    },
+    {
+        "name":"In the mini-hole, in the box",
+        "original_item": "Psychostimulants",
+        "region": "Entrance - Old House",
+        "condition": {},
+        "item_object": "sm2179_Psychostimulant01A_InteractDetailSearch",
+        "parent_object": "sm2179_Psychostimulant01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Box"
+    },
+    {
+        "name":"In the mini-hole, at the end of the hallway",
+        "original_item": "Crank",
+        "region": "Entrance - Old House",
+        "condition": {},
+        "item_object": "sm2058_Crank01A_InteractDetailSearch",
+        "parent_object": "sm2058_Crank01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FUnderFloor01/c03_OldHouse1FUnderFloor01_sm"
+    },
+    {
+        "name":"In the mini-hole, Behind a palett",
+        "original_item": "Chem Fluid",
+        "region": "Entrance - Old House",
+        "condition": {
+            "items":["Stone Statuette"]
+        },
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item/Chemical",
+        "item_position": [1,-4,87]
+    },
+    {
+        "name":"Outside, in front of the cabanon, in the faucet",
+        "original_item": "First Aid Med",
+        "region": "Dining Room - Old House",
+        "condition": {
+            "items":["Crank"]
+        },
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item",
+	"item_position": [-42.61,-2.43,105.07]
+    },
+    {
+        "name":"Outside, in the cabanon",
+        "original_item": "Crow Key",
+        "region": "Dining Room - Old House",
+        "condition": {
+            "items":["Crank"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm0389_TalismanDoorKey01A_KeyGet",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Common/KeyItem"
+    },
+    {
+        "name":"Outside, in the cabanon, on the toilet",
+        "original_item": "Antique Coin",
+        "region": "Dining Room - Old House",
+        "condition": {
+            "items":["Crank"]
+        },
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Coins",
+        "item_position": [-42.44,-2.06,108.41]
+    },
+    {
+        "name":"Outside, in the cabanon, in the toilet",
+        "original_item": "Burner Fuel",
+        "region": "Dining Room - Old House",
+        "condition": {
+            "items":["Crank"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1001_GasCan_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"In the piano room, in the shelf on the right",
+        "original_item": "Burner Fuel",
+        "region": "Altar",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse2F/c03_OldHouse2FHallway02/c03_OldHouse2FHallway02_sm",
+        "item_position":[1.75,0.73,92.36]
+    },
+    {
+        "name":"In the shelf in the corner, near the lantern door",
+        "original_item": "Antique Coin",
+        "region": "Altar",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "parent_object": "sm2164_Coin01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse2F/c03_OldHouse2FHallway03/c03_OldHouse2FHallway03_sm"
+    },
+    {
+        "name":"In front of the Door",
+        "original_item": "Grenade Launcher",
+        "region": "Supplies",
+        "condition": {},
+        "item_object": "InteractWeapon",
+        "parent_object": "wp1110_PortableCannon_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/KeyItem"
+    },
+    {
+        "name":"In the shelf on the left",
+        "original_item": "Flame Rounds",
+        "region": "Supplies",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1111_FlameBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F/3-4"
+    },
+    {
+        "name":"In the shelf on the right",
+        "original_item": "Shotgun Ammo",
+        "region": "Supplies",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F/3-4"
+    },
+    {
+        "name":"Behind the wooden box",
+        "original_item": "Strong Chem Fluid",
+        "region": "Supplies",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F/3-4"
+    },
+    {
+        "name":"Next to the Shelf on the right of the door",
+        "original_item": "Solid Fuel",
+        "region": "Supplies",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2026_Alcohol01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F/3-4"
+    },
+    {
+        "name":"In the shelf on the left of the door",
+        "original_item": "Gun Powder",
+        "region": "Supplies",
+        "condition": {},
+        "item_object": "GameObject",
+        "parent_object": "Gunpowder",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F/3-4"
+    },
+    {
+        "name":"Entrance of the GreenHouse, on the pole",
+        "original_item": "Strong Chem Fluid",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item"
+    },
+    {
+        "name":"On the wall of the stairs",
+        "original_item": "Treasure Photo - Green House",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "sm2154_TreasureMap01B_InteractDetailSearch",
+        "parent_object": "sm2154_TreasureMap01B_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Common/KeyItem",
+	    "randomized": 0
+    },
+    {
+        "name":"On the Right in the entrance",
+        "original_item": "Herb",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/2FRoom",
+        "item_position": [14.94,1.85,79.25]
+    },
+    {
+        "name":"On the Right in the entrance (2)",
+        "original_item": "Herb",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/2FRoom",
+        "item_position": [14.67,1.84,79.59]
+    },
+    {
+        "name":"In the shelf on the right in the entrance",
+        "original_item": "Solid Fuel",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2026_Alcohol01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/2FRoom"
+    },
+    {
+        "name":"On the table in the entrance",
+        "original_item": "Separating Agent",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "sm2038_ChemicalL01A_InteractDetailSearch",
+        "parent_object": "_sm2038_ChemicalL01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/2FRoom"
+    },
+    {
+        "name":"On the table in the couch",
+        "original_item": "Psychostimulants",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "sm2179_Psychostimulant01A_InteractDetailSearch",
+        "parent_object": "_sm2179_Psychostimulant01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Boss"
+    },
+    {
+        "name":"On Marguerite Dead Body",
+        "original_item": "Lantern",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "wp2080_Lantern_InteractDetailSearch",
+        "parent_object": "wp2080_Lantern_Get",
+        "folder_path": "Chapter/Chapter3/Enemy_c03/Enemy_c03_3/Lantern"
+    },
+    {
+        "name":"In the green drawer, in front of the normal entrance",
+        "original_item": "Handgun Ammo",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH1F/c03_GH1FEntrance01/c03_GH1FEntrance01_sm",
+        "item_position": [28.34,-2.13,66.32]
+    },
+    {
+        "name":"In the box in the corner (1F)",
+        "original_item": "Handgun Ammo",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Boss/Box",
+        "item_position":[32.68,-2.78,76.38]
+    },
+    {
+        "name":"In an iron shelf (1F)",
+        "original_item": "Shotgun Ammo",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH1F/c03_GH1FRoom02/c03_GH1FRoom02_sm"
+    },
+    {
+        "name":"In an iron shelf (1F) (2)",
+        "original_item": "Strong Chem Fluid",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH1F/c03_GH1FRoom02/c03_GH1FRoom02_sm"
+    },
+    {
+        "name":"In a Green drawer",
+        "original_item": "First Aid Med",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH1F/c03_GH1FRoom03/c03_GH1FRoom03_sm",
+        "item_position":[28.32,-2.13,84.51]
+    },
+    {
+        "name":"In an iron shelf in the open area (1F)",
+        "original_item": "Solid Fuel",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2026_Alcohol01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH1F/c03_GH1FlowerRoom01/c03_GH1FlowerRoom01_sm"
+    },
+    {
+        "name":"In an iron shelf in the open area (1F) (2)",
+        "original_item": "Chem Fluid",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH1F/c03_GH1FlowerRoom01/c03_GH1FlowerRoom01_sm",
+        "item_position":[44.63,-1.95,85.0]
+    },
+    {
+        "name":"On an iron shelf (1F)",
+        "original_item": "Chem Fluid",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Chemical",
+        "item_position":[38.54,-1.87,83.12]
+    },
+    {
+        "name":"In the box, in the open area",
+        "original_item": "Burner Fuel",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1001_GasCan_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Boss/Box"
+    },
+    {
+        "name":"Next to the plant in the open area (2F)",
+        "original_item": "Burner Fuel",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_wp1001_GasCan_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Boss"
+    },
+    {
+        "name":"On the table with the plant (at the right) in the open area (2F)",
+        "original_item": "Handgun Ammo",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Boss",
+        "item_position":[38.34,1.76,77.78]
+    },
+    {
+        "name":"In the shelf next to the stairs (2F)",
+        "original_item": "Herb",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH2F/c03_GH2FHallway01/c03_GH2FHallway01_sm"
+    },
+    {
+        "name":"In the shelf next to the stairs (2F) (2)",
+        "original_item": "Solid Fuel",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2026_Alcohol01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH2F/c03_GH2FHallway01/c03_GH2FHallway01_sm"
+    },
+    {
+        "name":"In the box (2F)",
+        "original_item": "Shotgun Ammo",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Boss/Box",
+        "item_position": [21.07,0.92,77.35]
+    },
+    {
+        "name":"In the drawer next to the bath",
+        "original_item": "Burner Fuel",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH2F/c03_GH2FRoom01/c03_GH2FRoom01_sm",
+        "item_position":[27.27,1.4,71.08]
+    },
+    {
+        "name":"Outside, on the grass mower",
+        "original_item": "Burner Fuel",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"_sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Boss"
+    },
+    {
+        "name":"Outside, in the box",
+        "original_item": "Handgun Ammo",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Boss/Box",
+        "item_position":[39.55,-2.75,71.44]
+    },
+    {
+        "name":"Outside, in the plant garden, on the right",
+        "original_item": "First Aid Med",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"_sm1852_AntisepticSolutionMedium_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Boss"
+    },
+    {
+        "name":"Outside, in the plant garden, on the left",
+        "original_item": "Herb",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"_sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Boss"
+    },
+    {
+        "name":"Outside, right of the ladder",
+        "original_item": "Burner Fuel",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Boss",
+        "item_position":[33.55,-2.13,71.89]
+    },
+    {
+        "name":"Outside, in the drawer",
+        "original_item": "Handgun Ammo",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH1F/c03_GH1FlowerRoom01/c03_GH1FlowerRoom01_sm",
+        "item_position":[38.39,-2.29,78.31]
+    },
+    {
+        "name":"On the dead corps",
+        "original_item": "D-Series Arm",
+        "region": "Detention Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm0379_MedicineMaterialA_DetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FStairs01/c03_OldHouse1FStairs01_sm"
+    },
+    {
+        "name":"In the body of the cops",
+        "original_item": "Snake Key",
+        "region": "Dissection Room",
+        "condition": {},
+        "item_object": "sm1787_DiamondDoorKey01A_InteractDetailSearch",
+        "parent_object": "sm1787_DiamondDoorKey01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoomB1F/c03_RightAreaB1FStoreroom/c03_RightAreaB1FStoreroom_sm"
+    },
+    {
+        "name":"In the Armoir on the left",
+        "original_item": "First Aid Med",
+        "region": "Master Bedroom",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FBedRoom/c03_MainHouse2FBedRoom_sm"
+    },
+    {
+        "name":"In the orange box, next to the mirror",
+        "original_item": "Lockpick",
+        "region": "Master Bedroom",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1796_KeyPick01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_2F_3-4"
+    },
+    {
+        "name":"In the drawer, under the photo",
+        "original_item": "Herb",
+        "region": "Master Bedroom",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FBedRoom/c03_MainHouse2FBedRoom_sm"
+    },
+    {
+        "name":"Under the pouch",
+        "original_item": "Shotgun Ammo",
+        "region": "Master Bedroom",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_2F_3-4"
+    },
+    {
+        "name":"On the Shelf on the right of the door",
+        "original_item": "Herb",
+        "region": "Storage",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_2F_3-4"
+    },
+    {
+        "name":"Behind the painting on the ground",
+        "original_item": "Neuro Rounds",
+        "region": "Storage",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1112_AcidBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_2F_3-4"
+    },
+    {
+        "name":"On the red seat on the left",
+        "original_item": "Treasure Photo - Master Bedroom",
+        "region": "Storage",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "sm2155_TreasureMap01C_InteractDetailSearch",
+        "parent_object": "sm2155_TreasureMap01C_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Common/KeyItem",
+	    "randomized": 0
+    },
+    {
+        "name":"On the Table (2)",
+        "original_item": "Keycard (Red)",
+        "region": "Workshop",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "sm2080_CardKey01A_InteractDetailSearch",
+        "parent_object": "sm2439_CardKey01B_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Common/KeyItem"
+    },
+    {
+        "name":"In the green storage",
+        "original_item": "Enhanced Handgun Ammo",
+        "region": "Workshop",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1013_HandgunBulletStrong_Get",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoomB1F/c03_RightAreaB1FPowerroom/c03_RightAreaB1FPowerroom_sm"
+    },
+    {
+        "name":"Under the wardrobe",
+        "original_item": "Shotgun Ammo",
+        "region": "Kid's Room",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Kidsroom"
+    },
+    {
+        "name":"In the little wardrobe next to the bed",
+        "original_item": "Handgun Ammo",
+        "region": "Kid's Room",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FKids/c03_MainHouse2FKids_sm",
+        "item_position": [8.39,4.83,-4.67]
+    },
+    {
+        "name":"On the A/C",
+        "original_item": "Supplement",
+        "region": "Kid's Room",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "sm2025_Flower01A_InteractDetailSearch",
+        "parent_object": "sm2025_Flower01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Kidsroom"
+    },
+    {
+        "name":"In the flowerpot next to the windows",
+        "original_item": "Lockpick",
+        "region": "Kid's Room",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyPick",
+        "item_position": [14,5,-3]
+    },
+    {
+        "name":"In the flowerpot, on the wardrobe",
+        "original_item": "Herb",
+        "region": "Kid's Room",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Kidsroom"
+    },
+    {
+        "name":"In the wardrobe in front of the ladder",
+        "original_item": "Happy Birthday",
+        "region": "Attic",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "sm1785_Videotape01F_InteractDetailSearch",
+        "parent_object": "sm1785_Videotape01F_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FKids02/c03_MainHouse2FKids02_sm"
+    },
+    {
+        "name":"In the shelf next to the stairs",
+        "original_item": "Model Shotgun",
+        "region": "Attic",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1695_DummyShotgun_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyItem"
+    },
+    {
+        "name":"In the shelf next to the stairs (2)",
+        "original_item": "Toy Axe",
+        "region": "Attic",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2487_DummyAxe01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem"
+    },
+    {
+        "name":"on the Shelf behind the wardrobe",
+        "original_item": "Strong Chem Fluid",
+        "region": "Attic",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Kidsroom"
+    },
+    {
+        "name":"After the Shadow puzzle",
+        "original_item": "Keycard (Blue)",
+        "region": "Attic",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "sm2080_CardKey01A_InteractDetailSearch",
+        "parent_object": "sm2080_CardKey01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem"
+    },
+    {
+        "name":"On the end of the corridor",
+        "original_item": "Herb",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/LucasArea/Normal/matterial"
+    },
+    {
+        "name":"In the box in front of the entrance",
+        "original_item": "Burner Fuel",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/LucasArea/Normal/Box",
+        "item_position":[46.82,4.1,28.13]
+    },
+    {
+        "name":"on the shelf on the left",
+        "original_item": "Handgun Ammo",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/LucasArea/Normal/HandgunBullet"
+    },
+    {
+        "name":"Hidden under the left cage",
+        "original_item": "44 Mag Ammo",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1141_MagnumBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/LucasArea/Normal/HandgunBullet"
+    },
+    {
+        "name":"In the front box",
+        "original_item": "Burner Fuel",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/LucasArea/Common/Other", 
+        "item_position":[55.03,4.07,36.58]
+    },
+    {
+        "name":"In the left box, on the right room after the code trap",
+        "original_item": "Chem Fluid",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/Other/Box",
+        "item_position":[59.86,-1.53,11.66]
+    },
+    {
+        "name":"In the barrow on the right room after the code trap",
+        "original_item": "Shotgun Ammo",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/ShotgunBullet",
+        "item_position":[62.17,-1.26,11.79]
+    },
+    {
+        "name":"In the left box in the long corridor",
+        "original_item": "Herb",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/Other/Box",
+        "item_position":[63.41,-1.52,6.58]
+    },
+    {
+        "name":"In the bottom shelf, in the room full of explosives",
+        "original_item": "Steroids",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"XXX_sm1927_Stimulant_Get",
+        "folder_path": "Chapter/Chapter3/c03_Cowshed/c03_CowRoom02/c03_CowRoom02_sm"
+    },
+    {
+        "name":"In the green drawer, in the room full of explosives",
+        "original_item": "Antique Coin",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "parent_object":"sm2164_Coin01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_Cowshed/c03_CowRoom02/c03_CowRoom02_sm"
+    },
+    {
+        "name":"In the first right case, in the cow room",
+        "original_item": "Herb",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"_sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/matterial"
+    },
+    {
+        "name":"On the ground next to the hayblay",
+        "original_item": "Shotgun Ammo",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"_wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/ShotgunBullet"
+    },
+    {
+        "name":"On the right shelf",
+        "original_item": "Gun Powder",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "sm2183_Gunpowder01A_InteractDetailSearch",
+        "parent_object":"_sm2183_Gunpowder01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/Other"
+    },
+    {
+        "name":"Behind the second hayblay, next to the pit",
+        "original_item": "44 Mag Ammo",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1141_MagnumBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/ShotgunBullet"
+    },
+    {
+        "name":"In the shelf, in the save spot",
+        "original_item": "Solid Fuel",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2026_Alcohol01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/matterial"
+    },
+    {
+        "name":"In the bucket, in the save spot",
+        "original_item": "Shotgun Ammo",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"_wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/ShotgunBullet"
+    },
+    {
+        "name":"In the box on the right corner, before the battle",
+        "original_item": "Strong Chem Fluid",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/Other/Box",
+        "item_position": [67.86,1.68,-16.51]
+    },
+    {
+        "name":"In the box on the left, next to the pit, before the battle",
+        "original_item": "Chem Fluid",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/Other/Box",
+        "item_position":[84.43,2.09,3.44]
+    },
+    {
+        "name":"In the box on the table, in the battle zone",
+        "original_item": "Herb",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/Other/Box",
+        "item_position":[75.36,-0.58,-7.48]
+    },
+    {
+        "name":"In the box on the ground, in the battle zone",
+        "original_item": "Chem Fluid",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/Other/Box",
+        "item_position": [61.61,-1.46,3.86]
+    },
+    {
+        "name":"On the shelf, in the battle zone",
+        "original_item": "Herb",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/matterial",
+        "item_position":[70.65,2.56,3.67]
+    },
+    {
+        "name":"In the box on the ground (2F), in the battle zone",
+        "original_item": "Chem Fluid",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/Other/Box",
+        "item_position":[61.44,1.72,3.56]
+    },
+    {
+        "name":"On the barrel, in the battle zone",
+        "original_item": "Battery",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "sm9095_DummyBattery01A_InteractDetailSearch",
+        "parent_object":"sm9095_DummyBattery01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_Cowshed/c03_Cowshed01/c03_Cowshed01_sm",
+        "randomized":0
+    },
+    {
+        "name":"on the table next to the sink, in the room with the burned man",
+        "original_item": "Supplement",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "sm2025_Flower01A_InteractDetailSearch",
+        "parent_object": "_sm2025_Flower01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/matterial"
+    },
+    {
+        "name":"In the little library, in the room with the burned man",
+        "original_item": "Chem Fluid",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"_sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/matterial"
+    },
+    {
+        "name":"In the corner of the storage, just after the burned man",
+        "original_item": "Antique Coin",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/CowShed/Normal/Coin",
+        "item_position":[58.58,3.57,16.43]
+    },
+    {
+        "name":"In the Suitcase",
+        "original_item": "D-Series Head",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm0380_MedicineMaterialB_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_Lucasarea/c03_LeftArea1F/c03_LeftArea1FMonitorroom/c03_LeftArea1FMonitorroom_sm"
+    },
+    {
+        "name":"After the monitoring room, on the right",
+        "original_item": "Shotgun Ammo",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Item"
+    },
+    {
+        "name":"After the monitoring room, on the right, on the white thing",
+        "original_item": "Handgun Ammo",
+        "region": "Testing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Item"
+    },
+    {
+        "name":"In the little left cabanon, on the shelf",
+        "original_item": "Chem Fluid",
+        "region": "Boat House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Item"
+    },
+    {
+        "name":"In the box under the shelf, In the little left cabanon",
+        "original_item": "Chem Fluid",
+        "region": "Boat House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Box",
+        "item_position":[59.53,-2.84,98.25]
+    },
+    {
+        "name":"In the box on the right, In the little left cabanon",
+        "original_item": "Herb",
+        "region": "Boat House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Box",
+        "item_position":[58.94,-3.04,95.11]
+    },
+    {
+        "name":"On the left of the crank lever hole",
+        "original_item": "44 Mag Ammo",
+        "region": "Boat House",
+        "condition": {},
+        "parent_object":"wp1141_MagnumBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Item",
+        "item_position":[79.31,-2.86,83.83]
+    },
+    {
+        "name":"On the box on the right",
+        "original_item": "Handgun Ammo",
+        "region": "Boat House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Box",
+        "item_position":[82.41,-2.89,87.23]
+    },
+    {
+        "name":"In the save spot, on the white chair",
+        "original_item": "Herb",
+        "region": "Boat House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Item"
+    },
+    {
+        "name":"On the left of the stairs, in the save spot",
+        "original_item": "Herb",
+        "region": "Boat House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Item"
+    },
+    {
+        "name":"On the table on the left of the ItemBox (1)",
+        "original_item": "Flame Rounds",
+        "region": "Boat House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Item",
+        "item_position":[110.75,-2.56,76.21]
+    },
+    {
+        "name":"On the table on the left of the ItemBox (2)",
+        "original_item": "Flame Rounds",
+        "region": "Boat House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Item",
+        "item_position":[110.84,-2.56,76.16]
+    },
+    {
+        "name":"On the table on the left of the ItemBox (3)",
+        "original_item": "Flame Rounds",
+        "region": "Boat House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Item",
+        "item_position":[110.84,-2.58,76.28]
+    },
+    {
+        "name":"Left of the Savespot",
+        "original_item": "Psychostimulants",
+        "region": "Boat House",
+        "condition": {},
+        "item_object": "sm2179_Psychostimulant01A_InteractDetailSearch",
+        "parent_object":"sm2179_Psychostimulant01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Item",
+        "item_position":[112.59,-2.61,79.03]
+    },
+    {
+        "name":"On the shelf, on the left",
+        "original_item": "Strong Chem Fluid",
+        "region": "Boat House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Item"
+    },
+    {
+        "name":"On the shelf, on the middle",
+        "original_item": "Separating Agent",
+        "region": "Boat House",
+        "condition": {},
+        "item_object": "sm2038_ChemicalL01A_InteractDetailSearch",
+        "parent_object":"sm2038_ChemicalL01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Item"
+    },
+    {
+        "name":"On the shelf, on the right",
+        "original_item": "Strong Chem Fluid",
+        "region": "Boat House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Item"
+    },
+    {
+        "name":"On the right wooden box",
+        "original_item": "Gun Powder",
+        "region": "Boat House",
+        "condition": {},
+        "item_object": "sm2183_Gunpowder01A_InteractDetailSearch",
+        "parent_object":"sm2183_Gunpowder01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Item"
+    },
+    {
+        "name":"In the box in the corner in the safe zone",
+        "original_item": "Herb",
+        "region": "Boat House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Box",
+        "item_position":[107.08,-3.47,80.98]
+    },
+    {
+        "name": "Victory",
+        "region": "Dad Bossroom",
+        "condition": {
+            "items": ["Snake Key", "Hatch Key", "Crow Key", "Blue Dogs Head", "White Dogs Head","Red Dogs Head","Keycard (Red)","Keycard (Blue)"]
+        },
+        "item_object": "Interact_SerumFinishPoint",
+        "parent_object": "",
+        "folder_path": "Chapter/Chapter3/Enemy_c03/Enemy_c03_5",
+        "id": null,
+        "victory": true
+    }
+
+]
