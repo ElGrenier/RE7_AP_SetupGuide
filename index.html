@@ -47,17 +47,6 @@
 
             <div id="container">
                 <div id="clientmods" class="page active">
-                    <!-- <div class="panel panel-1">
-                        <div class="step-number">1</div>
-                        <div class="images">
-                            <img src="images/clientmods/re2r-switch-to-beta.png" />
-                        </div>
-                        <h4>Install the <strong>non-RTX</strong> version of the game on Steam.</h4>
-                        <ul>
-                            <li>Right-click RE2R on Steam, click "Properties",<br /> and do the steps in the picture to the right.</li>
-                        </ul>
-                    </div> -->
-                    
                     <div class="panel panel-2">
                         <div class="step-number">1</div>
                         <div class="images">
@@ -113,7 +102,7 @@
                                 <select name="difficulty">
                                     <option value="Assisted" disabled>Assisted</option>
                                     <option value="standard">Standard</option>
-                                    <option value="hardcore">Hardcore</option>
+                                    <option value="hardcore" disabled>Hardcore</option>
                                 </select>
                             </div>
                             <div class="form-check">
@@ -123,7 +112,7 @@
                         
                         <div class="form-group">
                             <h4>Beneficial Extras</h4>
-                            <div>
+                            <!-- <div>
                                 <label for="starting_hip_pouches">Starting Hip Pouches:</label>
                                 <select name="starting_hip_pouches">
                                     <option value="0">0</option>
@@ -134,7 +123,7 @@
                                     <option value="5">5</option>
                                     <option value="6">6</option>
                                 </select>
-                            </div>
+                            </div> -->
                             <div class="form-check">
                                 <input type="checkbox" name="bonus_start" /> <label for="bonus_start">Bonus Start</label>
                             </div>
@@ -172,23 +161,15 @@
                             <h4>Weapon Customization</h4>
 
                             <div>
-                                <label for="cross_scenario_weapons">Cross Scenario Weapons:</label>
-                                <select name="cross_scenario_weapons">
-                                    <option value="none">None</option>
-                                    <option value="starting">Starting Only</option>
-                                    <option value="match">Match Level</option>
-                                    <option value="full">Full Random</option>
-                                    <option value="all">All Weapons</option>
-                                    <option value="full_ammo">Full + Ammo</option>
-                                    <option value="all_ammo">All + Ammo</option>
-                                    <option value="troll">Troll</option>
-                                </select>
                             </div>
                             <div class="form-check">
-                                <input type="checkbox" name="oops_all_rockets" /> <label for="oops_all_rockets">Oops! All Rockets</label>
+                                <input type="checkbox" name="oops_all_chainsaw" /> <label for="oops_all_chainsaw">Oops! All Chainsaw</label>
                             </div>
                             <div class="form-check">
-                                <input type="checkbox" name="oops_all_grenades" /> <label for="oops_all_grenades">Oops! All Grenades</label>
+                                <input type="checkbox" name="oops_all_handgun" /> <label for="oops_all_handgun">Oops! All Handgun</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="oops_all_grenade_launcher" /> <label for="oops_all_grenade_launcher">Oops! All Grenades</label>
                             </div>
                             <div class="form-check">
                                 <input type="checkbox" name="oops_all_knives" /> <label for="oops_all_knives">Oops! All Knives</label>
@@ -199,13 +180,10 @@
                             <h4>Item Removal Challenges</h4>
 
                             <div class="form-check">
-                                <input type="checkbox" name="no_first_aid_spray" /> <label for="no_first_aid_spray">No First Aid Sprays</label>
+                                <input type="checkbox" name="no_first_aid_med" /> <label for="no_first_aid_spray">No First Aid Med</label>
                             </div>
                             <div class="form-check">
                                 <input type="checkbox" name="no_green_herb" /> <label for="no_green_herb">No Green Herbs</label>
-                            </div>
-                            <div class="form-check">
-                                <input type="checkbox" name="no_red_herb" /> <label for="no_red_herb">No Red Herbs</label>
                             </div>
                             <div class="form-check">
                                 <input type="checkbox" name="no_gunpowder" /> <label for="no_gunpowder">No Gunpowder</label>

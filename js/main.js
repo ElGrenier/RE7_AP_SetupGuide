@@ -117,14 +117,12 @@ function exportYAML() {
     let fileContents = `name: ${player_name}\n` +
         "game: Resident Evil 7\n" +
         "requires:\n" + 
-        `${tab}version: 0.0.2\n\n` +
+        `${tab}version: 0.1.3\n\n` +
         "Resident Evil 7:\n" +
         `${tab}progression_balancing: 50\n` +
         `${tab}accessibility: items\n`;
 
     fileContents += 
-        // `${tab}character: ${form_data['character']}\n` +
-        // `${tab}scenario: ${form_data['scenario']}\n` +
         // `${tab}difficulty: ${form_data['difficulty']}\n` +
         `${tab}death_link: ${form_data['death_link'] == 'on' ? true : false}\n`;
 
@@ -136,14 +134,13 @@ function exportYAML() {
         // `${tab}extra_medallions: ${form_data['extra_medallions'] == 'on' ? true : false}\n` +
         // `${tab}allow_progression_in_labs: ${form_data['allow_progression_in_labs'] == 'on' ? true : false}\n`;
 
-    fileContents += `${tab}cross_scenario_weapons: ${form_data['cross_scenario_weapons']}\n` +
-        `${tab}oops_all_rockets: ${form_data['oops_all_rockets'] == 'on' ? true : false}\n` +
-        `${tab}oops_all_grenades: ${form_data['oops_all_grenades'] == 'on' ? true : false}\n` +
-        `${tab}oops_all_knives: ${form_data['oops_all_knives'] == 'on' ? true : false}\n`;
+     fileContents += `${tab}oops_all_chainsaw: ${form_data['oops_all_chainsaw'] == 'on' ? true : false}\n` +
+        `${tab}oops_all_handgun: ${form_data['oops_all_handgun'] == 'on' ? true : false}\n` +
+        `${tab}oops_all_knives: ${form_data['oops_all_knives'] == 'on' ? true : false}\n` +
+        `${tab}oops_all_grenade_launcher: ${form_data['oops_all_grenade_launcher'] == 'on' ? true : false}\n`;
 
-    fileContents += `${tab}no_first_aid_spray: ${form_data['no_first_aid_spray'] == 'on' ? true : false}\n` +
-        `${tab}no_green_herb: ${form_data['no_green_herb'] == 'on' ? true : false}\n` +
-        `${tab}no_red_herb: ${form_data['no_red_herb'] == 'on' ? true : false}\n` +
+    fileContents += `${tab}no_first_aid_med: ${form_data['no_first_aid_med'] == 'on' ? true : false}\n` +
+        `${tab}no_herb: ${form_data['no_herb'] == 'on' ? true : false}\n` +
         `${tab}no_gunpowder: ${form_data['no_gunpowder'] == 'on' ? true : false}\n`;
 
     // fileContents += `${tab}add_damage_traps: ${form_data['add_damage_traps'] == 'on' ? true : false}\n` +
